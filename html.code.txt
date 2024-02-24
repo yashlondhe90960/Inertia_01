@@ -1,0 +1,27 @@
+<div className="interFace">
+    <div className="time">0.00</div>
+    <div className="win">You Win</div>
+
+    <div className="restart">
+        <button className="restartButton">Play Again!</button>
+    </div>
+
+    <div className="controls">
+        <div className="raw">
+          <div className={`key`}>
+            <i className="fa-solid fa-caret-up"></i>
+          </div>
+        </div>
+        <div className="raw">
+          <div className={`key`}>
+            <i className="fa-solid fa-caret-left"></i>
+          </div>
+          <div className={`key`}>
+            <i className="fa-solid fa-caret-down"></i>
+          </div>
+          <div className={`key`}>
+            <i className="fa-solid fa-caret-right"></i>
+          </div>
+        </div>
+    </div>
+</div>
